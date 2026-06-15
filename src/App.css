@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+
+@theme{
+    --font-roboto: "Roboto", sans-serif; 
+}
+
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+
+@utility shadow-xl{
+    box-shadow:1px 1px 8px black;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
