@@ -6,15 +6,8 @@ import { destinations } from './components/Destinations'
 function App() {
   const entryEl = destinations.map((des) => {
     return <Entry
-      img={[{
-        src: des.img[0].src,
-        alt: des.img[0].alt
-      }]}
-      country={des.country}
-      mapUrl={des.mapUrl}
-      title={des.title}
-      date={des.date}
-      desc={des.desc}
+      key={des.id}
+      {...des}
 
     />
   })
